@@ -3,7 +3,14 @@
 	"dockerComposeFile": [
 		"../docker-compose.yml"
 	],
-	"extensions": ["ms-python.python"],
+	"extensions": ["ms-python.python",
+	"KevinRose.vsc-python-indent",
+"christian-kohler.path-intellisense",
+"oderwat.indent-rainbow",
+"PKief.material-icon-theme",
+"formulahendry.code-runner"
+],
 	"service": "atcoder",
+	"forwardPorts": [8080],
 	"workspaceFolder": "/code"
 }
