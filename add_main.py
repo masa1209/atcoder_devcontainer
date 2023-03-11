@@ -6,7 +6,7 @@ current_dir = input()
 
 dir_list = glob.glob(current_dir + "/*")
 
-item_list = ["a","b","c","d","e","f","g","e","ex"]
+item_list = ["a","b","c","d","e","f","g","e","h","i","m","n","o","p","q","r","s","t","u","v","w","x","y","z","ex"]
 
 for i in dir_list:
     target_dir = i.split("/")[-1]
