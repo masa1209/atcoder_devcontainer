@@ -11,10 +11,14 @@ AtCoderへのログイン
 コードの提出
     oj s https://atcoder.jp/contests/abs/tasks/abc086_a abc086a.py 
 
+
 pypyで提出する場合
     oj s --guess-python-interpreter pypy abc086a.py
 
     acc s --skip-filename -- --guess-python-interpreter pypy
+    
+pythonで提出する場合
+    acc submit main.py
 
 reference
 https://qiita.com/NaokiOsako/items/dcbc0a91e1bbca8ee45d
